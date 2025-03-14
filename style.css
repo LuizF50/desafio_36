@@ -1,0 +1,54 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/background.jpg'); /* Substitua pelo nome do arquivo correto */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-attachment: fixed; /* Fixa o fundo ao rolar a página */
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Centralizando o container */
+.container {
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente para contraste com o texto */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Estilo do input */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Estilo do botão */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo do resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
